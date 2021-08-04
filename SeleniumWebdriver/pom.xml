@@ -5,7 +5,13 @@
 	<groupId>SeleniumWebdriver</groupId>
 	<artifactId>SeleniumWebdriver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+	<java.version>1.8</java.version>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+	</proerties>
 	<dependencies>
+		
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
@@ -22,11 +28,7 @@
     <scope>test</scope>
 </dependency>
 
-<properties>
-	<java.version>1.8</java.version>
-	<maven.compiler.source>1.8</maven.compiler.source>
-	<maven.compiler.target>1.8</maven.compiler.target>
-	</proerties>
+
 		
 		
 		
